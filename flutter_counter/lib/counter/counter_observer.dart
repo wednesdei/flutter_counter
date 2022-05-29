@@ -20,7 +20,7 @@ class CounterObserver extends BlocObserver {
   @override
   void onChange(BlocBase bloc, Change change) {
     super.onChange(bloc, change);
-    print('${block.runtimeType} $change');
+    print('${bloc.runtimeType} $change');
   }
 
   //@override
